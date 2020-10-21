@@ -1,9 +1,9 @@
 class Bob {
     constructor(x, y) {
       var options = {
-          'restitution':1.4,
+          'restitution':1,
           'friction':0,
-          'density':0.5,
+          'density':0.9,
           isStatic:false
       }
       this.body = Bodies.circle(x, y, 40, options);
